@@ -1,3 +1,7 @@
+* {
+  border: 1px solid black;
+}
+
 .flex-container {
   display: flex;
 }
@@ -8,10 +12,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: gray;
-  max-width: 1500px;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
-  border-right: 1 px solid black;
+  max-width: 100%;
 }
 
 li {
@@ -58,12 +59,106 @@ header {
   margin-bottom: 0px;
 }
 
-#test {
+#searchbar1 {
   width: 896px;
 }
 
-/*
-* {
-  border: 1px solid black;
+.margin {
+  margin: 0px;
 }
-  */
+
+#root-container {
+  width: 100%;
+  height: 1920px;
+  display: flex;
+  flex-direction: column;
+}
+
+#box-header1 {
+  border: 1px solid black;
+  background-color: gray;
+  flex: 0.1;
+  text-align: center;
+}
+
+#box-header2 {
+  background-color: lightgray;
+  flex: 0.4;
+  display: flex;
+  flex-direction: row;
+}
+
+#company-logo {
+  flex: 50;
+}
+
+#social-media-logos {
+  flex: 50;
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  align-items: center;
+}
+
+#box-header3 {
+  background-color: gray;
+  flex: 0.5;
+}
+
+#box-header4 {
+  background-color: black;
+  flex: 0.5;
+  color: white;
+}
+
+#wrapper-1 {
+  flex: 8;
+  display: flex;
+  flex-direction: row;
+}
+
+/*#box-2 {
+  background-color: lightgreen;
+  flex: 2;
+}*/
+
+#box-3 {
+  background-color: white;
+  flex: 7;
+}
+
+#wrapper-2 {
+  display: flex;
+  width: 100%;
+  height: 96%;
+  flex-direction: row;
+  justify-content: start;
+  align-items: end;
+}
+
+#box-4 {
+  background-color: orangered;
+  flex: 2;
+  margin: 20px;
+  height: 40%;
+}
+
+#box-5 {
+  background-color: orangered;
+  flex: 2;
+  margin: 20px;
+  height: 40%;
+}
+
+#box-6 {
+  background-color: orangered;
+  flex: 2;
+  margin: 20px;
+  height: 40%;
+}
+
+#box-7 {
+  background-color: lightblue;
+  flex: 0.4;
+  text-align: center;
+}

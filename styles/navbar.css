@@ -69,7 +69,7 @@ header {
 
 #root-container {
   width: 100%;
-  height: 1920px;
+  height: 2200px;
   display: flex;
   flex-direction: column;
 }
@@ -109,7 +109,7 @@ header {
 
 #box-header3 {
   background-color: gray;
-  flex: 0.5;
+  flex: 0.3;
   color: white;
   border: 1px solid black;
   text-align: center;
@@ -123,8 +123,9 @@ header {
 
 #box-header4 {
   background-color: black;
-  flex: 0.5;
+  flex: 0.2;
   color: white;
+  font-size: larger;
 }
 
 #wrapper-1 {
@@ -181,7 +182,6 @@ header {
 }
 
 #box-3 {
-  border-radius: 15%;
   margin: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -195,10 +195,26 @@ header {
   height: 100%;
 }
 
-footer {
+#footer-1 {
   background-color: gray;
-  flex: 0.4;
+  flex: 1;
   text-align: center;
+}
+
+#footer-2 {
+  flex: 0.2;
+  background-color: lightgray;
+}
+
+#footer-3 {
+  flex: 0.1;
+  background-color: grey;
+}
+
+#footer-wrapper-2 {
+  display: flex;
+  flex-direction: row;
+  flex: 0.1;
 }
 
 #box-8 {
@@ -214,6 +230,10 @@ footer {
 
 .blog-post {
   margin-left: 20px;
+}
+
+#post-title1 {
+  margin-left: 10px;
 }
 
 .post-title {
@@ -242,6 +262,7 @@ footer {
 }
 
 #button-1 {
+  margin-bottom: 10px;
   flex: 0.2;
   right: 30%;
   text-align: right;
@@ -250,4 +271,14 @@ footer {
 
 #image {
   padding-left: 10px;
+}
+
+#footer-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-box {
+  flex: 25;
 }

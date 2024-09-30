@@ -129,6 +129,11 @@ header {
   font-size: larger;
 }
 
+.latest-post {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
 #wrapper-1 {
   flex: 8;
   display: flex;
@@ -227,6 +232,11 @@ header {
   flex: 0.1;
 }
 
+.footer-box {
+  color: blue;
+  text-decoration-line: underline;
+}
+
 .blog-post {
   margin-left: 20px;
   width: 100%;
@@ -257,7 +267,9 @@ header {
 }
 
 #button-1 {
+  cursor: pointer;
   margin-bottom: 10px;
+  display: inline-block;
   flex: 0.2;
   right: 30%;
   text-align: right;
@@ -290,5 +302,16 @@ header {
   .blog-post {
     width: 100%;
     margin-left: 0;
+  }
+
+  .sub-title,
+  .date {
+    text-align: center;
+    width: 100%;
+  }
+
+  #image {
+    display: block;
+    margin: 20px auto;
   }
 }

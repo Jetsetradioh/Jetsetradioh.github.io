@@ -34,8 +34,8 @@ li a:hover:not(.active) {
 #searchbar {
   border: 2px solid black;
   background-color: white;
-  width: 1000px;
-  max-width: 1000px;
+  width: 1400px;
+  max-width: 1400px;
 }
 
 #fa-search {
@@ -60,7 +60,7 @@ header {
 }
 
 #searchbar1 {
-  width: 996px;
+  width: 1396px;
 }
 
 .margin {

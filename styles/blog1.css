@@ -212,7 +212,24 @@ header {
 }
 
 #wrapper-4 {
+  height: 100%;
   display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#wrapper-5 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+#wrapper-6 {
+  display: flex;
+  height: 100%;
+  width: 100%;
   flex-direction: row;
 }
 
@@ -226,6 +243,7 @@ header {
   height: 25px;
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 #button-wrapper {
@@ -301,7 +319,7 @@ header {
 .sub-title {
   margin-left: 11px;
   font-size: 8px;
-  width: 80px;
+  width: 119px;
   border-bottom: 1px solid black;
   margin-bottom: 3px;
 }
@@ -309,7 +327,7 @@ header {
 .date {
   text-align: right;
   margin-bottom: 3px;
-  width: 120px;
+  width: 480px;
   font-style: italic;
   font-size: 8px;
   border-bottom: 1px solid black;
@@ -327,6 +345,8 @@ header {
 
 #image {
   padding-left: 10px;
+  float: left;
+  border: 2px solid green;
 }
 
 #footer-wrapper {
@@ -337,6 +357,11 @@ header {
 
 .footer-box {
   flex: 25;
+}
+
+.box1 {
+  height: 50%;
+  width: 50%;
 }
 
 @media (max-width: 1000px) {

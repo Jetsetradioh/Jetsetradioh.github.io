@@ -261,7 +261,14 @@ header {
   display: inline-block;
 }
 
-#archives h5 {
+.archives-maps {
+  color: red;
+}
+
+#archives .archives-box2,
+#archives .archives-box,
+.archives-tags,
+.archives-maps {
   font-weight: bold;
 }
 
@@ -287,7 +294,8 @@ header {
   color: blue;
 }
 
-.archives-box {
+.archives-box,
+.archives-maps {
   margin: 0px;
 }
 
@@ -317,6 +325,7 @@ header {
 }
 
 #searchbar-container {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;

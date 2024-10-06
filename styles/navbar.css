@@ -34,8 +34,8 @@ li a:hover:not(.active) {
 #searchbar {
   border: 2px solid black;
   background-color: white;
-  width: 1400px;
-  max-width: 1400px;
+  width: 900px;
+  max-width: 900px;
 }
 
 #fa-search {
@@ -60,7 +60,7 @@ header {
 }
 
 #searchbar1 {
-  width: 1396px;
+  width: 896px;
 }
 
 .margin {
@@ -195,14 +195,65 @@ header {
   display: inline-block;
 }
 
+#archives h5 {
+  font-weight: bold;
+}
+
 #archives {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
   margin-left: auto;
   margin-right: auto;
   background-color: lightgray;
   width: 20%;
-  height: 20%;
+  height: 17%;
+}
+
+.archives-date,
+.archives-tags {
+  margin: 0px;
+}
+
+.archives-date {
+  text-decoration: underline;
+  color: blue;
+}
+
+.archives-box {
+  margin: 0px;
+}
+
+#archives-wrapper1,
+#archives-wrapper2,
+#archives-wrapper3,
+#archives-wrapper4 {
+  display: flex;
+  flex-direction: row;
+}
+
+#archives-wrapper1 p,
+#archives-wrapper2 p,
+#archives-wrapper3 p,
+#archives-wrapper4 p {
+  margin: 0px;
+  width: 100%;
+}
+
+.archives-box2 {
+  margin: 0px;
+}
+
+#row-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#searchbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #box-4 {
@@ -313,5 +364,11 @@ header {
   #image {
     display: block;
     margin: 20px auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  #archives {
+    display: none;
   }
 }
